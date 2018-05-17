@@ -11,8 +11,4 @@ void loop() {
 
 	digitalWrite(fan, LOW);
 	delay(2000);
-
-
-
-
 }

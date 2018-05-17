@@ -1,0 +1,28 @@
+* {box-sizing: border-box;}
+.clearfix { clear: both;}
+
+div {
+  border: 1.5px solid black;
+}
+
+.info{
+width: 50%;
+float: left;
+}
+
+.materiales{
+width: 50%;
+float: right;
+}
+
+.esquema{
+width: auto;
+}
+
+.pasos{
+
+}
+
+.final{
+
+}
