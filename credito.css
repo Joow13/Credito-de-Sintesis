@@ -1,26 +1,62 @@
 * {box-sizing: border-box;}
 .clearfix { clear: both;}
 
-div {
+div.menu {
+  background-color: black
+  overflow: auto;
+  white-space: nowrap;
+  margin: 0 auto;
+  width: 25%;
+  text-align: center;
   border: 1.5px solid black;
+
+}
+
+div.menu a {
+  display: inline-block;
+  color: Green;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.menu a:hover {
+  background-color: Orange;
+}
+#content-wapper{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: White;
 }
 
 .info{
 width: 50%;
-float: left;
+margin: 5%;
+font-size: 1.5em;
+letter-spacing: 0.5em;
 }
 
 .materiales{
-width: 50%;
-float: right;
+width: 40%;
+margin: 5%;
+font-size: 1.5em;
+letter-spacing: 0.1em;
+text-align: center;
 }
 
 .esquema{
 width: auto;
+margin: 5%;
+font-size: 1.5em;
 }
 
 .pasos{
-
+  width: 40%;
+  margin: 5%;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  text-align: center;
 }
 
 .final{
